@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+h1{
+    text-align: center;
+    background-color:aqua;
+    margin-bottom: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 20px;
+    background-color: cadetblue;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.countryArea{
+    display: flex;
+    justify-content: center;
+}
+.countryButton{
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.deleteButton{
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.updateButton{
+    padding: 10px;
+    background-color: yellow;
+    color: black;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+}

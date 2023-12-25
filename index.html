@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Country Names</h1>
+    <!-- <div class="container">
+        <ul>
+            <li>Bangladesh</li>
+            <li>Japan</li>
+            <li>India</li>
+        </ul>
+    </div>
+    <div>
+        <input id="userText" type="text">
+        <button id="getTextBtn">Add Country</button>
+    </div> -->
+
+    <div class="container">
+        <input id="countryInput" type="text" placeholder="Add Country"> 
+        <button class="countryButton" id="addCountryBtn" onclick="addCountry()">Add Country</button>
+    </div>
+    <div class="countryArea">
+        <ul id="countryList"></ul>
+
+    </div>
+
+    <script src="./script.js"></script>
+    <script src="./localStorage.js"></script>
+</body>
+</html>
